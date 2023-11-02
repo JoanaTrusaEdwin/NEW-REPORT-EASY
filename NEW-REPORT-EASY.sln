@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34219.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEW-REPORT-EASY", "NEW-REPORT-EASY\NEW-REPORT-EASY.csproj", "{9D0C0082-C6F7-4C4D-9CB6-A8FBB3F11B21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NEW-REPORT-EASY", "NEW-REPORT-EASY\NEW-REPORT-EASY.csproj", "{9D0C0082-C6F7-4C4D-9CB6-A8FBB3F11B21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
