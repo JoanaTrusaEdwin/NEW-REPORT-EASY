@@ -7,9 +7,10 @@ public partial class CreateAccount : ContentPage
 		InitializeComponent();
 	}
 
-    private void OnCreateAccountClicked(object sender, EventArgs e)
+    private async void OnCreateAccountClicked(object sender, EventArgs e)
     {
         // Add your account creation logic here
+        await Navigation.PushAsync(new MenuPage());
     }
 
 }

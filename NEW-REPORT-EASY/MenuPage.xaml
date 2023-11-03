@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NEW_REPORT_EASY.MenuPage"
+             Title="MenuPage">
+    <!--<VerticalStackLayout>
+        <Label 
+            Text="Menu"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+       
+        
+    </VerticalStackLayout>-->
+    <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="Center">
+        <Button Text="Make a Report" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold"/>
+        
+        <!--Clicked="OnMakeReportClicked" Margin="10" />-->
+        <Button Text="Notifications" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold"/>
+        <!--Clicked="OnNotificationsClicked" Margin="10" />-->
+        <Button Text="Community" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold"/>
+        <!--Clicked="OnCommunityClicked" Margin="10" />-->
+        <Button Text="Safety Resources" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold"/>
+        <!--Clicked="OnSafetyResourcesClicked" Margin="10" />-->
+    </FlexLayout>
+    
+    
+</ContentPage>

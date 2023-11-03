@@ -9,12 +9,14 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Entry Placeholder="Name" />
-        <Entry Placeholder="IC (with a -, example: xxxxxx-xx-xxxx)" />
-        <Entry Placeholder="Full Name (according to IC)" />
-        <Entry Placeholder="Email" />
-        <Entry Placeholder="Phone Number (optional)" />
-
+        
+        <Entry x:Name="Email" Placeholder="Email" />
+        <Entry x:Name="Username" Placeholder="Username" />
+        <Entry x:Name="FullName" Placeholder="Full Name (according to IC)" />
+        <Entry x:Name="PhoneNumber" Placeholder="Phone Number (optional)" />
+        <Entry x:Name="PasswordHash" Placeholder="Password" />
+        <Entry x:Name="IdentificationNumber" Placeholder="IC (with a -, example: xxxxxx-xx-xxxx)" />
+       
         <Button Text="Create Account" Clicked="OnCreateAccountClicked" HorizontalOptions="Center" TextColor="Black"  BackgroundColor="#FFD700" />
 
         <Label Text="Terms and conditions: ..." FontSize="12" TextColor="Gray" />
