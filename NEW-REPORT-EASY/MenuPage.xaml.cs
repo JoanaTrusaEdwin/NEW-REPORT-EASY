@@ -11,5 +11,4 @@ public partial class MenuPage : ContentPage
     {
         await Navigation.PushAsync(new MakeAReport());
     }
-
 }

@@ -5,7 +5,7 @@
              Title="CreateAccount">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Before proceeding, let's create your account"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
@@ -16,9 +16,9 @@
         <Entry x:Name="PhoneNumber" Placeholder="Phone Number (optional)" />
         <Entry x:Name="PasswordHash" Placeholder="Password" />
         <Entry x:Name="IdentificationNumber" Placeholder="IC (with a -, example: xxxxxx-xx-xxxx)" />
-       
-        <Button Text="Create Account" Clicked="OnCreateAccountClicked" HorizontalOptions="Center" TextColor="Black"  BackgroundColor="#FFD700" />
 
-        <Label Text="Terms and conditions: ..." FontSize="12" TextColor="Gray" />
+        <Button Text="Create Account" Clicked="OnCreateAccountClicked" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" BackgroundColor="#FFD700" />
+
+        <Button Text="Terms and Conditions" FontFamily="Montserrat-Bold" BackgroundColor="White" TextColor="Black" WidthRequest="250" Margin="10"/>
     </VerticalStackLayout>
 </ContentPage>

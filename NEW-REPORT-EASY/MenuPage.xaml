@@ -3,25 +3,106 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NEW_REPORT_EASY.MenuPage"
              Title="MenuPage">
+
     <!--<VerticalStackLayout>
         <Label 
             Text="Menu"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-
-       
-        
+            HorizontalOptions="Center" />  
     </VerticalStackLayout>-->
+    
+   <!-- 
+    Proposed features:
+    1. User Profiles & Authentication: (In CreateAccount.xaml)
+        - Registration & Login: Users should be able to register using their email or phone number.
+        Two-factor authentication should be an option for added security (Future plan).
+    
+        - Anonymous Reporting: For sensitive issues, users should have the option to report
+        incidents anonymously.
+
+    2. Reporting Features: (In MakeAReport.xaml)
+        - Incident Reporting: Users can report incidents by providing details, selecting categories
+        (e.g., theft, harassment, infrastructure issues), and uploading images or videos.
+    
+        - Location Tagging: Users should be able to pinpoint the exact location of an incident
+        using GPS or by manually selecting a location on a map.
+    
+        - Urgency Levels: Users can categorize their report based on urgency (e.g., high, medium,
+        low).
+    
+        - Feedback System: After an incident is addressed, the user receives feedback or updates
+        on the actions taken.
+
+    3. Safety Alerts & Notifications: (In Notifications.xaml)
+        - Real-time Alerts: Push notifications to alert users about recent incidents in their vicinity or
+        areas they frequent.
+    
+        - Safety Zones: Users can set up zones (e.g., home, work, school) to receive specific alerts
+        for those areas.(Additional feature)
+
+    4. Community Engagement: (In Community.xaml)
+        - Community Watch: A feature where community members can sign up as local
+        watchdogs, verifying reports, and providing local insights.
+    
+        - Polls & Surveys: Periodic polls to gauge community sentiment on safety issues, allowing
+        for targeted interventions. (Additional Feature)
+
+    5. Safety Resources: (In SafetyResources.xaml)
+        - Emergency Contacts: List of essential emergency numbers, including police, fire brigade,
+        hospitals, etc.
+    
+        - Safety Tips & Guides: Resources on how to handle different safety situations, preventative
+        measures, etc. (Additional features)
+
+    10. Feedback & Continuous Improvement: (After launch) (In Feedback.xaml)
+        - User Feedback: Users can suggest improvements, report bugs, or share their
+        experiences for continuous app enhancement.
+    
+        - Updates & Maintenance: Regular app updates based on user feedback, technological
+        advancements, and evolving community needs.
+    
+    
+    /need to be discussed/
+    
+        6. Data Analytics & Dashboard: (Will focus on this if got extra time)
+             - Incident Heatmaps: Visualization of areas with high incident reports to identify problem
+             areas.
+ 
+             - Trend Analysis: Identification of recurring safety issues, times of frequent incidents, etc., to
+             help law enforcement and community leaders address concerns proactively.
+
+         7. Moderation & Quality Control: (Need admin)
+             - Review System: Before an incident goes live, a review system ensures no fake reports or
+             misuse of the app. This can be done through community moderators or a dedicated team.
+ 
+             - Flagging & Reporting: Users can flag inappropriate content or false reports, which will
+             then be reviewed.
+
+         8. Collaboration with Local Authorities: (Need admin)
+             - Direct Line: A direct communication line between the app's admin and local authorities like
+             police, ensuring rapid response.
+ 
+             - Data Sharing: With proper user consent and anonymity, sharing aggregated data with local
+             authorities to help them strategize better safety measures.
+
+         9. Localization & Language Support: (To be discussed)
+             - Given Malaysia's multicultural demographic, the app should support multiple languages,
+             including Bahasa Malaysia, English, Mandarin, and Tamil. (But the majority here is fluent in
+             English, Chinese and Malay)
+    -->
+   
+    
+    
     <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="Center">
-        <Button Text="Make a Report" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold"/>
-        
-        <!--Clicked="OnMakeReportClicked" Margin="10" />-->
-        <Button Text="Notifications" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold"/>
-        <!--Clicked="OnNotificationsClicked" Margin="10" />-->
-        <Button Text="Community" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold"/>
-        <!--Clicked="OnCommunityClicked" Margin="10" />-->
-        <Button Text="Safety Resources" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold"/>
-        <!--Clicked="OnSafetyResourcesClicked" Margin="10" />-->
+        <Button Text="Make a Report" Clicked="OnMakeReportClicked" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+        <!--Clicked="OnMakeReportClicked"-->
+        <Button Text="Notifications" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+        <!--Clicked="OnNotificationsClicked"-->
+        <Button Text="Community" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+        <!--Clicked="OnCommunityClicked"-->
+        <Button Text="Safety Resources" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+        <!--Clicked="OnSafetyResourcesClicked"-->
+        <Button Text="User Feedback" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
     </FlexLayout>
     
     
