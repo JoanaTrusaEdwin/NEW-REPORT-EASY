@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NEW_REPORT_EASY.MyProfile"
+             Title="MyProfile">
+    <!--<VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>-->
+
+    <StackLayout Padding="20">
+
+        <StackLayout>
+            <Label Text="Email:" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
+            <Label x:Name="EmailLabel" FontSize="16" TextColor="#FFFFFF"/>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Username:" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
+            <Label x:Name="UsernameLabel" FontSize="16" TextColor="#FFFFFF"/>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Full Name:" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
+            <Label x:Name="FullNameLabel" FontSize="16" TextColor="#FFFFFF"/>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Phone Number:" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
+            <Label x:Name="PhoneNumberLabel" FontSize="16" TextColor="#FFFFFF"/>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Password:" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
+            <!-- Display password as asterisks -->
+            <Entry x:Name="PasswordEntry" Text="********" IsPassword="true" FontSize="16" TextColor="Black" />
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="IC:" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
+            <Label x:Name="ICLabel" FontSize="16" TextColor="#FFFFFF"/>
+        </StackLayout>
+
+        <!-- Edit Button -->
+        <Button Text="Edit" Margin="0,20,0,0" BackgroundColor="#FFD700" TextColor="#000000"/>
+
+    </StackLayout>
+</ContentPage>

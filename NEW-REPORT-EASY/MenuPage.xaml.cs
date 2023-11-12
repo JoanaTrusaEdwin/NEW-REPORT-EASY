@@ -11,4 +11,15 @@ public partial class MenuPage : ContentPage
     {
         await Navigation.PushAsync(new MakeAReport());
     }
+
+    private async void OnMyProfileClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MyProfile());
+    }
+
+    private async void OnMyReportsClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MyReports());
+    }
+
 }

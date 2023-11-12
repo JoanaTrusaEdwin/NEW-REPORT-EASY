@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NEW_REPORT_EASY.MyReports"
+             Title="MyReports">
+    <!--<VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>-->
+<ScrollView>
+    
+    <CollectionView x:Name="reportsCollectionView">
+        
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <StackLayout Padding="10" BackgroundColor="#FFD700">
+                    <!--<Label Text="{Binding Title}" FontAttributes="Bold" FontSize="18" TextColor="Black" />
+                    <Label Text="{Binding Date, StringFormat='Date: {0:MM/dd/yyyy HH:mm}'}" FontSize="16" TextColor="Black" />
+                    <Label Text="{Binding Category}" FontSize="16" TextColor="Black" />
+                    <Label Text="{Binding Urgency}" FontSize="16" TextColor="Black" />-->
+
+                    <!--JUST AN EXAMPLE ON HOW IT LOOKS LIKE-->
+                    <Label Text="Car Accident" FontAttributes="Bold" FontSize="18" TextColor="Black" />
+                    <Label Text="12th October 2023" FontSize="16" TextColor="Black" />
+                    <Label Text="Accident" FontSize="16" TextColor="Black" />
+                    <Label Text="Urgency Level: High" FontSize="16" TextColor="Black" />
+                    <!-- Add more labels for other relevant information -->
+                </StackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
+</ScrollView>
+</ContentPage>

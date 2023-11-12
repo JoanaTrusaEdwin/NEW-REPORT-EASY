@@ -14,7 +14,7 @@
         <Entry x:Name="Username" Placeholder="Username" />
         <Entry x:Name="FullName" Placeholder="Full Name (according to IC)" />
         <Entry x:Name="PhoneNumber" Placeholder="Phone Number (optional)" />
-        <Entry x:Name="PasswordHash" Placeholder="Password" />
+        <Entry x:Name="Password" Placeholder="Password" />
         <Entry x:Name="IdentificationNumber" Placeholder="IC (with a -, example: xxxxxx-xx-xxxx)" />
 
         <Button Text="Create Account" Clicked="OnCreateAccountClicked" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" BackgroundColor="#FFD700" />
