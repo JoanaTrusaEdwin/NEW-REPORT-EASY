@@ -10,23 +10,23 @@ public partial class MakeAReport : ContentPage
     private async void OnCapturePhotoClicked(object sender, EventArgs e)
     {
         var result = await MediaPicker.CapturePhotoAsync();
-        // Process the captured photo (result) as needed
+        
     }
 
     private async void OnUploadFromGalleryClicked(object sender, EventArgs e)
     {
         var result = await MediaPicker.PickPhotoAsync();
-        // Process the picked photo (result) as needed
+       
     }
 
     private void OnSubmitReportClicked(object sender, EventArgs e)
     {
-        // Handle Submit Report button click
+        
     }
 
     private void OnSaveAsDraftClicked(object sender, EventArgs e)
     {
-        // Handle Save as Draft button click
+        
     }
 
 
