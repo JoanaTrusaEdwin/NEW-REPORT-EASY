@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NEW_REPORT_EASY.ADMIN.ADMINResourceUpdate"
+             Title="ADMINResourceUpdate">
+
+
+    <StackLayout Padding="20">
+
+        <!-- Title -->
+        <Label Text="Title" FontFamily="Roboto-Bold" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+        <Entry Placeholder="Enter title" BackgroundColor="White" TextColor="Black" Margin="0,0,0,20"/>
+
+        <!-- Slight Description -->
+        <Label Text="Slight Description" FontFamily="Roboto-Bold" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+        <Editor Placeholder="Enter slight description" BackgroundColor="#F8F8F8" HeightRequest="100" Margin="0,0,0,20"/>
+
+        <!-- Upload Type -->
+        <Label Text="Upload Your Resource" FontFamily="Roboto-Bold" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+        
+
+        <!-- For Link -->
+        <Entry x:Name="linkEntry" Placeholder="Enter link" IsVisible="{Binding SelectedItem, Source={x:Reference uploadTypePicker}, Converter={StaticResource IsLinkVisibleConverter}}" BackgroundColor="White" TextColor="Black" Margin="0,0,0,20"/>
+
+        <!-- For File -->
+        <StackLayout IsVisible="{Binding SelectedItem, Source={x:Reference uploadTypePicker}, Converter={StaticResource IsFileVisibleConverter}}">
+            <Label Text="Upload File" FontFamily="Roboto-Bold" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+            <Button Text="Choose File (PDF only)" Clicked="OnChooseFileClicked" FontFamily="Roboto-Bold" BackgroundColor="Gray" TextColor="Black" FontAttributes="Bold" />
+            <!-- Add other controls for file upload -->
+        </StackLayout>
+
+        <!-- Upload Button -->
+        <Button Text="Upload" FontFamily="Roboto-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" FontSize="20"/>
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NEW_REPORT_EASY.SignIn"
+             Title="SignIn">
+    <VerticalStackLayout>
+
+
+        
+        <Entry x:Name="Username" FontFamily="Roboto" Placeholder="Username" />
+        <Entry x:Name="Password" FontFamily="Roboto" Placeholder="Password" />
+        
+
+
+        <!--TEMPORARY ALERT: FOR CREATE ACCOUNT BUTTON, PLS CHANGE ITS DIRECTORY SO IT ONLY VIEWS THE MENU ONCE ACCOUNT IS VERIFIED -->
+        <Button Text="Create Account" Clicked="OnSignInClicked" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" BackgroundColor="#FFD700" />
+
+        <Button Text="Terms and Conditions"  FontFamily="Roboto-Bold" BackgroundColor="White" TextColor="Black" WidthRequest="250" Margin="10"/>
+    </VerticalStackLayout>
+</ContentPage>

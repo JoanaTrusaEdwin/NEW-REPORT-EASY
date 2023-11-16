@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NEW_REPORT_EASY.SubmitFeedback"
+             Title="SubmitFeedback">
+    <StackLayout Padding="20">
+        
+        
+
+        <!-- Feedback Title -->
+        <Label Text="Feedback Form" FontFamily="Roboto" FontAttributes="Bold" FontSize="24" TextColor="Black" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20"/>
+
+        <!-- Name -->
+        <Entry x:Name="NameEntry" FontFamily="Roboto" Placeholder="Your Name" BackgroundColor="#F8F8F8" TextColor="Black" Margin="0,0,0,20"/>
+
+        <!-- Email -->
+        <Entry x:Name="EmailEntry" FontFamily="Roboto" Placeholder="Your Email"  BackgroundColor="#F8F8F8" TextColor="Black" Margin="0,0,0,20"/>
+
+        <!-- Feedback Description -->
+        <Editor x:Name="FeedbackEditor" FontFamily="Roboto" Placeholder="Your Feedback" BackgroundColor="#F8F8F8" TextColor="Black" HeightRequest="150" Margin="0,0,0,20"/>
+
+        <!-- Submit Button -->
+        <Button Text="Submit Feedback" FontFamily="Roboto" Clicked="OnSubmitFeedbackClicked" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand"/>
+
+    </StackLayout>
+</ContentPage>

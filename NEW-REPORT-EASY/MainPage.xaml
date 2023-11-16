@@ -30,12 +30,30 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Create Account"
+                Text="Sign Up (For new users)"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" 
                 BackgroundColor="#FFD700"
                 TextColor="Black" />
+
+            <Button
+                
+                Text="Sign In"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnSignInClicked"
+                HorizontalOptions="Center" 
+                BackgroundColor="#FFD700"
+                TextColor="Black" />    
+
+            <Button
+                 
+                 Text="Admin Login"
+                 SemanticProperties.Hint="Counts the number of times you click"
+                 Clicked="OnAdminLoginClicked"
+                 HorizontalOptions="Center" 
+                 BackgroundColor="#FFD700"
+                 TextColor="Black" />       
 
         </VerticalStackLayout>
     </ScrollView>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NEW_REPORT_EASY.CreateAccount"
-             Title="CreateAccount">
+             x:Class="NEW_REPORT_EASY.ADMIN.ADMINCreateAccount"
+             Title="ADMINCreateAccount">
+
     <VerticalStackLayout>
         <Label 
-            Text="Before proceeding, let's create your account"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        Text="Before proceeding, let's create your account"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
 
 
         <Entry x:Name="Email" FontFamily="Roboto" Placeholder="Email" />
@@ -16,8 +17,9 @@
         <Entry x:Name="PhoneNumber" FontFamily="Roboto" Placeholder="Phone Number (optional)" />
         <Entry x:Name="Password" FontFamily="Roboto" Placeholder="Password" />
         <Entry x:Name="IdentificationNumber" FontFamily="Roboto" Placeholder="IC (with a -, example: xxxxxx-xx-xxxx)" />
-        
-        
+        <Entry x:Name="StaffNumber" FontFamily="Roboto" Placeholder="Please obtain your staff number from your department" />
+
+
         <!--TEMPORARY ALERT: FOR CREATE ACCOUNT BUTTON, PLS CHANGE ITS DIRECTORY SO IT ONLY VIEWS THE MENU ONCE ACCOUNT IS VERIFIED -->
         <Button Text="Create Account" Clicked="OnCreateAccountClicked" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" BackgroundColor="#FFD700" />
 

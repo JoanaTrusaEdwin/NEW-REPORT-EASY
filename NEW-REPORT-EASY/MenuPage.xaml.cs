@@ -22,4 +22,13 @@ public partial class MenuPage : ContentPage
         await Navigation.PushAsync(new MyReports());
     }
 
+    private async void OnUserFeedbackClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new SubmitFeedback());
+    }
+
+    private async void OnNotificationsClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Notifications());
+    }
 }

@@ -94,18 +94,20 @@
     
     
     <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="Center">
-        <Button Text="My Profile" Clicked="OnMyProfileClicked" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
-        
-        <Button Text="Make a Report" Clicked="OnMakeReportClicked" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
-        <!--Clicked="OnMakeReportClicked"-->
+        <Button Text="My Profile" Clicked="OnMyProfileClicked" FontFamily="Roboto-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
 
-        <Button Text="My Reports" Clicked="OnMyReportsClicked" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
-        
-        <Button Text="Community" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
-        <!--Clicked="OnCommunityClicked"-->
-        <Button Text="Safety Resources" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
-        <!--Clicked="OnSafetyResourcesClicked"-->
-        <Button Text="User Feedback" FontFamily="Montserrat-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+        <Button Text="Make a Report" Clicked="OnMakeReportClicked" FontFamily="Roboto-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+
+
+        <Button Text="Notifications" Clicked="OnNotificationsClicked" FontFamily="Roboto-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+
+        <Button Text="My Reports" Clicked="OnMyReportsClicked" FontFamily="Roboto-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+
+        <Button Text="Community" FontFamily="Roboto-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+
+        <Button Text="Safety Resources" FontFamily="Roboto-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
+
+        <Button Text="User Feedback" Clicked="OnUserFeedbackClicked" FontFamily="Roboto-Bold" BackgroundColor="#FFD700" TextColor="Black" FontAttributes="Bold" WidthRequest="150" Margin="10"/>
 
 
     </FlexLayout>

@@ -2,6 +2,8 @@ namespace NEW_REPORT_EASY;
 
 public partial class MakeAReport : ContentPage
 {
+
+    //DATABASE ALERT
 	public MakeAReport()
 	{
 		InitializeComponent();
@@ -21,13 +23,10 @@ public partial class MakeAReport : ContentPage
 
     private void OnSubmitReportClicked(object sender, EventArgs e)
     {
-        
+        //TEMPORARY ALERT: PLS VALIDATE THE DATA TO DATABASE
+        Navigation.PushAsync(new MyReports());
     }
 
-    private void OnSaveAsDraftClicked(object sender, EventArgs e)
-    {
-        
-    }
 
 
     //private void OnStreetPickerSelectedIndexChanged(object sender, EventArgs e)
