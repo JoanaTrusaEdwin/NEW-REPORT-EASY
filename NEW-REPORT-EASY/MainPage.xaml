@@ -30,7 +30,7 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Sign Up (For new users)"
+                Text="Sign Up"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" 
