@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 
 namespace NEW_REPORT_EASY.Models
 
@@ -13,5 +13,5 @@ public class UserProfile
     public string IdentificationNumber { get; set; }
 
 }
-*/
+
 

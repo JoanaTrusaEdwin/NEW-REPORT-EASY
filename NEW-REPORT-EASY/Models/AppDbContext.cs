@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,5 +25,6 @@ public class AppDbContext : DbContext
         optionsBuilder.UseSqlServer("C:\\Users\\USER\\source\\repos\\JoanaTrusaEdwin\\Report-Easy\\Report Easy\\SqlQuery_1.sql\");
     }
 }
+}
 
-*/
+
